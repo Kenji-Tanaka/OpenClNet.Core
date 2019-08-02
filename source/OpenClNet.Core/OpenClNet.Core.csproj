@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<LangVersion>latest</LangVersion>
+		<Authors>Kenji Tanaka</Authors>
+		<Company>Tanaka Inc</Company>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	</PropertyGroup>
+	<PropertyGroup>
+		<OutputPath>..\..\output\bin\$(MSBuildProjectName)\$(Configuration)\</OutputPath>
+		<IntermediateOutputPath>..\..\output\obj\$(MSBuildProjectName)\$(Configuration)\</IntermediateOutputPath>
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+	</PropertyGroup>
+</Project>
